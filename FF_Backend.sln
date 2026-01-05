@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FF.API", "FF.API\FF.API.csproj", "{AF5A5A22-17B6-5D50-221D-11AB57F78408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FF.Core", "FF.Core\FF.Core.csproj", "{AFD22B37-CD0C-1134-3237-A4F98A290DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FF.Infrastructure", "FF.Infrastructure\FF.Infrastructure.csproj", "{C7986D9B-7A2B-48CC-C611-2564CA3D3788}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF5A5A22-17B6-5D50-221D-11AB57F78408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF5A5A22-17B6-5D50-221D-11AB57F78408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF5A5A22-17B6-5D50-221D-11AB57F78408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF5A5A22-17B6-5D50-221D-11AB57F78408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD22B37-CD0C-1134-3237-A4F98A290DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD22B37-CD0C-1134-3237-A4F98A290DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD22B37-CD0C-1134-3237-A4F98A290DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD22B37-CD0C-1134-3237-A4F98A290DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7986D9B-7A2B-48CC-C611-2564CA3D3788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7986D9B-7A2B-48CC-C611-2564CA3D3788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7986D9B-7A2B-48CC-C611-2564CA3D3788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7986D9B-7A2B-48CC-C611-2564CA3D3788}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A7C1813-ED78-49BC-AD8C-501D10F09DCD}
+	EndGlobalSection
+EndGlobal
