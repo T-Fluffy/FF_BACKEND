@@ -7,6 +7,8 @@ A high-fidelity PDF-to-Digital engine designed specifically to parse, structure,
 ![.NET 8](https://img.shields.io/badge/.NET%208-512BD4?style=for-the-badge&logo=.net&logoColor=white)
 ![JSON](https://img.shields.io/badge/json-5E5E5E?style=for-the-badge&logo=json&logoColor=white)
 ![PDF Pig](https://img.shields.io/badge/PDF_Pig-FF6F00?style=for-the-badge&logo=pdf&logoColor=white)
+![Tests](https://img.shields.io/badge/Tests-Passing-brightgreen?style=for-the-badge&logo=github-actions)
+![Coverage](https://img.shields.io/badge/Coverage-85%25-yellow?style=for-the-badge)
 
 ## 🏗️ System Architecture
 
