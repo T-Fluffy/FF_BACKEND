@@ -98,4 +98,13 @@ var book = await parser.ParseAsync("Seas of Blood");
 ```
 4. Verify: Check ProcessedBooks/Seas of Blood.json and your Game_Art folder for the extracted assets.
 
+## 🧪 Testing Strategy
 
+The project utilizes **xUnit** and **FluentAssertions** to maintain data integrity across book versions.
+
+* **Unit Tests**: Validates Regex patterns for choice extraction.
+* **Regression Tests**: Ensures the "Section 50" and "Victory" patches remain functional after logic updates.
+* **Validation**: Every ingestion is validated against a schema to ensure `SectionNumber` ranges (1-400) are strictly followed.
+
+To run tests:
+`dotnet test`

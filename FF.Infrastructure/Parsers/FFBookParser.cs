@@ -7,7 +7,9 @@ using FF.Core.Options;
 using Microsoft.Extensions.Options;
 using UglyToad.PdfPig;
 using UglyToad.PdfPig.Content;
+using System.Runtime.CompilerServices;
 
+[assembly: InternalsVisibleTo("FF.Tests")]
 namespace FF.Infrastructure.Parsers;
 
 public class FFBookParser : IBookParser
@@ -183,7 +185,7 @@ public class FFBookParser : IBookParser
         return Math.Abs(((left + right) / 2) - (pageWidth / 2)) < 50;
     }
 
-    private string RemoveHeaderNumber(string text, int number)
+    internal string RemoveHeaderNumber(string text, int number)
     {
         string s = number.ToString();
         if (text == s || text == s + ".") return "";
@@ -204,7 +206,7 @@ public class FFBookParser : IBookParser
         book.Sections.Add(section);
     }
 
-    private List<Choice> ExtractChoices(string text)
+    internal List<Choice> ExtractChoices(string text)
     {
         return TurnToRegex.Matches(text).Select(m => new Choice {
             TargetSectionNumber = int.Parse(m.Groups[1].Value),
