@@ -28,7 +28,7 @@ FF.Project/
 │   │   └── FFBookParser.cs   # The "Brain": Handles logic, state, and FF patches
 │   └── Options/
 │       └── FileStorageOptions.cs # Path configurations for PDF/Images
-├── FF.Web/                   # Frontend / API layer
+├── FF.API/                   # Frontend / API layer
 └── Assets/
     ├── PDF_Uploads/          # Source PDF files
     └── Game_Art/             # Extracted section illustrations 
